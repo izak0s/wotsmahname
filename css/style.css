@@ -1,0 +1,180 @@
+/**
+    Global styles
+ */
+*, html {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: uni;
+    src: url("../fonts/uni_sans_heavy.otf");
+}
+
+body {
+    background-color: #3498DB;
+    font-family: Montserrat;
+    /*padding: 1em;*/
+    /*min-height: 100vh;*/
+}
+
+button {
+    font-size: 1.1em;
+    padding: .5em 1em;
+    background-color: #E74C3C;
+    color: #FFFFFF;
+    flex-shrink: 2;
+
+    border-radius: .5em;
+    border-width: 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: uni, serif;
+    color: #FFF;
+    text-align: center;
+    margin-top: .5em;
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/**
+    Form styles
+ */
+#formpje > p {
+    color: #fff;
+    font-size: 1.3em;
+
+    max-width: 21em;
+    margin: 1em auto;
+    padding: .25em;
+}
+
+form {
+    display: flex;
+    max-width: 29em;
+    margin: 0 auto;
+}
+
+form > input {
+    padding: .5em 1em;
+    font-size: 1.1em;
+    border-color: #FFFFFF;
+    border-width: 0;
+
+    border-radius: .5em 0 0 .5em;
+    flex: 1;
+}
+
+input::placeholder, input {
+    font-family: Montserrat;
+}
+
+button.search {
+    border-radius: 0 .5em .5em 0;
+}
+
+/**
+    Form animations
+ */
+@keyframes hide {
+    0% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(2vw);
+    }
+    100% {
+        transform: translate(-150vw);
+    }
+}
+
+@keyframes show {
+    0% {
+        transform: translate(-150vw);
+    }
+    80% {
+        transform: translate(2vw);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.hide {
+    animation: hide 0.3s forwards ease-in-out;
+}
+
+.show {
+    animation: show 0.6s forwards ease-in-out;
+}
+
+/**
+    Data styles
+ */
+.try_again {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#work.showResult {
+    padding: 1em;
+}
+
+#work {
+    max-width: 29em;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: .5em;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    height: 1em;
+}
+
+#data {
+    opacity: 0;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+}
+
+#data h2 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+#data > div > p {
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+
+section .flags {
+    display: flex;
+
+    justify-content: center;
+    align-content: space-around;
+}
+
+.flag {
+    text-align: center;
+    /*margin: .5em 1em;*/
+
+    flex-grow: .5;
+    flex-basis: 0;
+}
+
+#base {
+    margin-left: 1em;
+    margin-right: 1em;
+}
