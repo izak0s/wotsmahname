@@ -11,4 +11,4 @@ Hosted version: [hva.izak.amsterdam/wotsmahname/](https://hva.izak.amsterdam/wot
 - [betekenisnamen.nl](https://www.betekenisnamen.nl/)
 
 ### License
-[GNU GPLv3](LICENSE)
+[MIT](LICENSE)
