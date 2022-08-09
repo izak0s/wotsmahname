@@ -1,5 +1,7 @@
 # Wots mah name
-Krijg meer informatie over je naam! Deze tool combineert informatie van verschillende bronnen om tot een analyse te komen! Plain-Javascript opdracht vanuit de Hogeschool van Amsterdam ontwikkeld voor niet-commerciele doeleinden.
+Krijg meer informatie over je naam! Deze tool combineert informatie van verschillende bronnen om tot een analyse te komen! 
+
+Plain-Javascript opdracht voor de Hogeschool van Amsterdam (HvA) ontwikkeld voor niet-commerciele doeleinden en om Cloudflare Workers te ontdekken (:
 
 Hosted version: [wotsmahname.izak.amsterdam](https://wotsmahname.izak.amsterdam/)
 
