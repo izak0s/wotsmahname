@@ -1,0 +1,18 @@
+{
+  "name": "wotsmahname",
+  "version": "1.0.0",
+  "description": "Obtain information about your (first) name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izak0s/wotsmahname.git"
+  },
+  "dependencies": {
+    "node-html-parser": "^5.3.3"
+  },
+  "author": "izak0s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izak0s/wotsmahname/issues"
+  },
+  "homepage": "https://github.com/izak0s/wotsmahname#readme"
+}

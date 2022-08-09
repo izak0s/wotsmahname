@@ -228,7 +228,7 @@ class AnalyseGrisser extends GrisHandler {
     }
 
     url() {
-        return "https://hva.izak.amsterdam/wotsmahname/api/grisStats?name=";
+        return "./api/stats/";
     }
 
     validate(data) {
