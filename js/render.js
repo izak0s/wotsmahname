@@ -271,7 +271,8 @@ class MeaningRender extends Render {
 
     fallback(data) {
         let el = ElementHelper.p();
-        el.appendChild(ElementHelper.span("Mijn database bevat geen betekenis voor jouw naam! :( Misschien kan je het vinden in een "));
+        el.appendChild(ElementHelper.a('https://betekenisnamen.nl', "betekenisnamen.nl"))
+        el.appendChild(ElementHelper.span(" bevat geen betekenis voor jouw naam! :( Misschien kan je het vinden in een "));
         el.appendChild(ElementHelper.a("https://www.behindthename.com/", "Internationale Database", true));
 
         return el;

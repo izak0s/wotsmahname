@@ -209,7 +209,7 @@ class MeaningGrisser extends GrisHandler {
     }
 
     url() {
-        return "./api/meaning/";
+        return "/api/meaning/";
     }
 
     validate(data) {
@@ -228,7 +228,7 @@ class AnalyseGrisser extends GrisHandler {
     }
 
     url() {
-        return "./api/stats/";
+        return "/api/stats/";
     }
 
     validate(data) {
