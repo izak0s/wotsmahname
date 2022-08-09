@@ -209,7 +209,7 @@ class MeaningGrisser extends GrisHandler {
     }
 
     url() {
-        return "https://hva.izak.amsterdam/wotsmahname/api/gris?name=";
+        return "./api/meaning/";
     }
 
     validate(data) {
