@@ -178,7 +178,7 @@ class GroetjesGrisser extends GrisHandler {
     }
 
     url() {
-        return "https://fourtonfish.com/hellosalut/?cc=";
+        return "/api/hello/";
     }
 
     validate(data) {
