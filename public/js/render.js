@@ -215,7 +215,7 @@ class StatsRender extends Render {
         let p = ElementHelper.p();
 
         p.append(ElementHelper.span("In "),
-            ElementHelper.bold("2014 "),
+            ElementHelper.bold("2017 "),
             ElementHelper.span("waren er "),
             ElementHelper.bold(`${calculated.amount} `),
             ElementHelper.span(`anderen in Nederland met jouw naam. Dat is `),
@@ -272,7 +272,7 @@ class MeaningRender extends Render {
     fallback(data) {
         let el = ElementHelper.p();
         el.appendChild(ElementHelper.a('https://betekenisnamen.nl', "betekenisnamen.nl"))
-        el.appendChild(ElementHelper.span(" bevat geen betekenis voor jouw naam! :( Misschien kan je het vinden in een "));
+        el.appendChild(ElementHelper.span(" heeft geen betekenis van jouw naam! :( Misschien kan je het vinden in een "));
         el.appendChild(ElementHelper.a("https://www.behindthename.com/", "Internationale Database", true));
 
         return el;
