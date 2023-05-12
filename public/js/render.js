@@ -302,9 +302,9 @@ class NationalityRender extends Render {
 
             let article = ElementHelper._createElement("article");
             article.classList.add("flag");
-            let img = new Image(64, 42.6);
-            img.crossOrigin = "anonymous";
-            img.src = `https://countryflagsapi.com/png/${country.country_id}`;
+            let img = new Image(64, 64);
+            // img.crossOrigin = "anonymous";
+            img.src = `https://flagsapi.com/${country.country_id}/flat/64.png`;
 
             let header = ElementHelper.header(4);
 
